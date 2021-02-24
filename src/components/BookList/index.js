@@ -1,6 +1,6 @@
 import Loader from 'react-loader-spinner'
 import { useQuery } from 'react-query'
-import { Flex } from 'rebass'
+import { Flex } from 'rebass/styled-components'
 import { getAllBooks } from '../../api'
 import Container from '../shared/Container'
 import BookItem from './BookItem'

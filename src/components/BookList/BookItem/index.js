@@ -1,4 +1,9 @@
-import { Button, Flex, Link as StyledLink, Text } from 'rebass'
+import {
+  Button,
+  Flex,
+  Link as StyledLink,
+  Text,
+} from 'rebass/styled-components'
 import { Link } from 'react-router-dom'
 import { useMutation, useQueryClient } from 'react-query'
 import { removeBook } from '../../../api'
@@ -19,7 +24,7 @@ const BookItem = ({ id, title, author }) => {
         {title}
       </Link>
       <Text>{author}</Text>
-      <Button ml={5} onClick={removeBookHandler}>
+      <Button variant='primary' ml={5} onClick={removeBookHandler}>
         {isLoading ? (
           <Loader type='ThreeDots' color='#fff' height={10} />
         ) : (

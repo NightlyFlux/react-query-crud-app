@@ -19,9 +19,7 @@ export const getBook = async ({ queryKey }) => {
 export const createBook = async ({ ...data }) => {
   const response = await fetch(`${process.env.REACT_APP_API_URL}/books`, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data),
   })
 
@@ -33,7 +31,6 @@ export const createBook = async ({ ...data }) => {
 }
 
 export const updateBook = async ({ id, ...data }) => {
-  console.log(data)
   const response = await fetch(`${process.env.REACT_APP_API_URL}/books/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },

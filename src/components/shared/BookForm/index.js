@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form'
-import { Box, Button } from 'rebass'
+import { Box, Button } from 'rebass/styled-components'
 import { Label, Input } from '@rebass/forms'
 import Loader from 'react-loader-spinner'
 

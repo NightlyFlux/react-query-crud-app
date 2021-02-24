@@ -1,7 +1,7 @@
 import Loader from 'react-loader-spinner'
 import { useMutation, useQuery } from 'react-query'
 import { useHistory, useParams } from 'react-router-dom'
-import { Box, Flex, Heading } from 'rebass'
+import { Box, Flex, Heading } from 'rebass/styled-components'
 import { getBook, updateBook } from '../../api'
 import BookForm from '../shared/BookForm'
 import Container from '../shared/Container'

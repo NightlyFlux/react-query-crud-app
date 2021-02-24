@@ -2,7 +2,6 @@
   "name": "react-query-crud-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4000",
   "dependencies": {
     "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
