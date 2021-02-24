@@ -1,14 +1,22 @@
 {
-  "name": "react-query-crud",
+  "name": "react-query-crud-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
+    "@rebass/preset": "^4.0.5",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-loader-spinner": "^4.0.0",
+    "react-query": "^3.12.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
